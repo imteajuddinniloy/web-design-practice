@@ -16,6 +16,17 @@
     color: #FD6E0A;
 }
 
+.ancor{
+  text-decoration: none;
+  color:#474747;
+  font-size: 20px;
+}
+.ancor-2{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 20px;
+}
+
 .btn{
     color: white;
     background-color: #FD6E0A;
@@ -59,7 +70,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png) #FFF8F3;
     background-repeat: no-repeat;
-    background-position: 23px center , bottom right;
+    background-position: 23px 38px, bottom right;
 }
 
 nav{
@@ -78,11 +89,6 @@ nav .menu{
     align-items: center;
 }
 
-nav  a {
-  text-decoration: none;
-  color:#474747;
-  font-size: 20px;
-}
 
 #banner{
     display: flex;
@@ -121,6 +127,16 @@ nav  a {
     vertical-align: middle;
 }
 
+.c-btn{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A ;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
+    background-color: #FFF8F3;
+}
+
 
                                 /*  About Me section */
 
@@ -157,7 +173,7 @@ nav  a {
 }
 
                     /* skills section */
-#skills, #resume {
+#skills{
     padding-top: 130px;
 }
 
@@ -200,6 +216,12 @@ nav  a {
 
 
 /* --------------Resume-------------- */
+
+#skills, #resume {
+    padding-top: 130px;
+    padding-bottom: 113px;
+}
+
 #resume .resume-container{
     display: flex;
     width: 71%;
@@ -231,7 +253,7 @@ nav  a {
     color: #757575;
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .resume-container hr{
@@ -251,7 +273,6 @@ nav  a {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    padding-bottom: 130px;
     justify-content: space-between;
 
 }
