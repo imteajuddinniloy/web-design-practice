@@ -70,7 +70,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png) #FFF8F3;
     background-repeat: no-repeat;
-    background-position: 23px 38px, bottom right;
+    background-position: 23px 20px, bottom right;
 }
 
 nav{
@@ -161,13 +161,13 @@ nav .menu{
 }
 
 .about-info .info-card p{
-    font-size: 20px;
+    font-size: 16px;
     color: #757575;
     line-height: 30px;
 }
 
 .about-info .info-card h4{
-    font-size: 20px;
+    font-size: 17px;
     color:#474747;
    
 }
