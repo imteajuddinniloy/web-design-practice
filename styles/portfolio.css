@@ -42,6 +42,10 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
+
+.text-center{
+    text-align: center;
+}
 /* main styles */
 
 *{
@@ -122,7 +126,7 @@ nav  a {
 
 #about{
     padding: 130px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     
 }
 #about .about-container{
@@ -131,7 +135,7 @@ nav  a {
     width: 71%;
     max-width: 1140px;
     text-align: center;
-    background-color: #fff8f3;
+    background-color: #FFF8F3;
 }
 
 #about .about-container .about-info{
@@ -153,7 +157,7 @@ nav  a {
 }
 
                     /* skills section */
-#skills{
+#skills, #resume {
     padding-top: 130px;
 }
 
@@ -192,4 +196,93 @@ nav  a {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+
+/* --------------Resume-------------- */
+#resume .resume-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    gap: 71px;
+}
+
+.resume-container .section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+
+.resume-container .resume-card .card-title {
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-card .card-info{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-card .card-text{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.resume-container hr{
+    margin: 30px 0;
+    row-gap: 24px;
+}
+
+
+/* ---------------------Footer-------------------- */
+#footer{
+    padding: 130px 0 130px 0;
+    background-color: #FFF8F3;
+}
+.footer-container{
+
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+    justify-content: space-between;
+
+}
+
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;   
+}
+
+.footer-container .socials .footer-text{
+    color: #474747;
+    width: 562px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-container .socials .icons{
+    margin-right: 24px;
+    width: 24px;
+}
+
+
+.footer-container .form .text{
+    display: block;
+    margin-bottom: 24px ;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    border: none;
+    color: #757575;
+    background-color: #ffffff;
+
 }
