@@ -24,8 +24,22 @@
     border: none;
     padding: 18px 35px;
     cursor: pointer;
-    
-    
+}
+
+.section-heading{
+    text-align: center;
+    max-width: 827px;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 /* main styles */
 
@@ -100,4 +114,39 @@ nav  a {
 #banner .banner-image img{
     max-width: 584px;
     vertical-align: middle;
+}
+
+
+                                /*  About Me section */
+
+#about{
+    padding: 130px;
+    background-color: #ffffff;
+    
+}
+#about .about-container{
+    padding: 131px 156px;
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+    text-align: center;
+    background-color: #fff8f3;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    max-width: 882px;
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.about-info .info-card h4{
+    font-size: 20px;
+    color:#474747;
+   
 }
